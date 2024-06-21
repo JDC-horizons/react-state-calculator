@@ -51,7 +51,7 @@ function App() {
   };
 
   const handleOperator = (input) => {
-    setOperator(input);
+    input === "÷" ? setOperator("/") : setOperator(input);
   };
 
   const handleResult = () => {
