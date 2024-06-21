@@ -55,7 +55,7 @@ function App() {
   };
 
   const handleResult = () => {
-    if (operator === "÷" && numTwo === 0) {
+    if (operator === "/" && numTwo === 0) {
       alert("Cannot divide by 0!");
       setResult(0);
       return;
